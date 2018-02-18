@@ -58,7 +58,7 @@ namespace easyopenv1
         private void getMOTDToolStripMenuItem_Click(object sender, EventArgs e)
         {
             WebClient client = new WebClient();
-            var motd = client.DownloadString("http://teamnukepvp.com/message.txt");
+            var motd = client.DownloadString("");
             MessageBox.Show("MOTD is :: " + motd);
 
         }
