@@ -21,7 +21,7 @@ namespace easyopenv1
             try
             {
                 
-                var message = client.DownloadString("http://teamnukepvp.com/message.txt");
+                var message = client.DownloadString("");
                 Console.WriteLine("Loading Whitelist please wait....");
                 System.Threading.Thread.Sleep(5000);
              
@@ -83,7 +83,7 @@ namespace easyopenv1
                             case "load":
                                 Console.Clear();
                                 Console.Beep();
-                                var message2 = client.DownloadString("http://teamnukepvp.com/message.txt");
+                                var message2 = "no motd.";
                                 Console.WriteLine("Easy Opener v1.0.0.40");
                                 Console.WriteLine("Message of the day! :: " + message2);
                                 Console.Title = "Easy Opener v1.0.0.40";
@@ -150,7 +150,7 @@ namespace easyopenv1
                                 break;
 
                             case "updatelog":
-                                var log = client.DownloadString("http://teamnukepvp.com/EO/updatelog.txt");
+                                var log = "discontinued";
                                 Console.WriteLine(log);
                                 Console.Write(">");
 

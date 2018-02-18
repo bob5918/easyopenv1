@@ -50,7 +50,7 @@ namespace easyopenv1
             {
 
                 WebClient client = new WebClient();
-                var text = client.DownloadString("http://teamnukepvp.com/message.txt");
+                var text = client.DownloadString("");
                 label2.Text = text;
             }
             catch
@@ -67,7 +67,7 @@ namespace easyopenv1
             try
             {
                 WebClient client = new WebClient();
-                var text = client.DownloadString("http://teamnukepvp.com/message.txt");
+                var text = client.DownloadString("");
                 label2.Text = text;
             }
             catch
@@ -89,7 +89,7 @@ namespace easyopenv1
                 if (checkBox1.Checked == true)
                 {
                     WebClient client = new WebClient();
-                    var uni = client.DownloadString("http://teamnukepvp.com/EO/codesun.txt");
+                    var uni = client.DownloadString("");
 
                     string[] Titles = { uni };
 
@@ -101,7 +101,7 @@ namespace easyopenv1
                if (checkBox1.Checked == false)
                 {
                     WebClient client = new WebClient();
-                    var non = client.DownloadString("http://teamnukepvp.com/EO/codesnon.txt");
+                    var non = client.DownloadString("");
                     string[] Titles2 = { non };
                     textBox2.Text = Titles2[new Random().Next(0, Titles2.Length)];
                 }

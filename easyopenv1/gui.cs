@@ -117,7 +117,7 @@ namespace easyopenv1
         private void mOTDToolStripMenuItem_Click(object sender, EventArgs e)
         {
             WebClient client = new WebClient();
-            var motd = client.DownloadString("http://teamnukepvp.com/get/motd.txt");
+            var motd = "dead";
             MessageBox.Show(motd);
 
 
@@ -130,8 +130,7 @@ namespace easyopenv1
 
         private void memesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            userPicture.Load("http://teamnukepvp.com/get/meme.jpg");
-            bcPic.Load("http://teamnukepvp.com/get/meme.png");
+            
 
         }
 
