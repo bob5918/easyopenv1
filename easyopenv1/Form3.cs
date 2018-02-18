@@ -21,10 +21,10 @@ namespace easyopenv1
         private void Form3_Load(object sender, EventArgs e)
         {
             WebClient client = new WebClient();
-            var un = client.DownloadString("http://teamnukepvp.com/EO/codesun.txt");
-            var non = client.DownloadString("http://teamnukepvp.com/EO/codesnon.txt");
+            var un = client.DownloadString("");
+            var non = client.DownloadString("");
             richTextBox1.AppendText(un + " :: " + non);
-            var hwids = client.DownloadString("http://teamnukepvp.com/whitelist.txt");
+            var hwids = client.DownloadString("");
             richTextBox2.Visible = false;
             richTextBox2.AppendText(hwids);
             richTextBox1.Visible = false;
