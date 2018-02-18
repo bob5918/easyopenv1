@@ -1,0 +1,12 @@
+C:\Users\Caden N\source\repos\easyopenv1\easyopenv1\bin\Release\easyopenv1.exe.config
+C:\Users\Caden N\source\repos\easyopenv1\easyopenv1\bin\Release\easyopenv1.exe.manifest
+C:\Users\Caden N\source\repos\easyopenv1\easyopenv1\bin\Release\easyopenv1.application
+C:\Users\Caden N\source\repos\easyopenv1\easyopenv1\bin\Release\easyopenv1.exe
+C:\Users\Caden N\source\repos\easyopenv1\easyopenv1\bin\Release\easyopenv1.pdb
+C:\Users\Caden N\source\repos\easyopenv1\easyopenv1\obj\Release\easyopenv1.Form1.resources
+C:\Users\Caden N\source\repos\easyopenv1\easyopenv1\obj\Release\easyopenv1.csproj.GenerateResource.Cache
+C:\Users\Caden N\source\repos\easyopenv1\easyopenv1\obj\Release\easyopenv1.csproj.CoreCompileInputs.cache
+C:\Users\Caden N\source\repos\easyopenv1\easyopenv1\obj\Release\easyopenv1.exe.manifest
+C:\Users\Caden N\source\repos\easyopenv1\easyopenv1\obj\Release\easyopenv1.application
+C:\Users\Caden N\source\repos\easyopenv1\easyopenv1\obj\Release\easyopenv1.exe
+C:\Users\Caden N\source\repos\easyopenv1\easyopenv1\obj\Release\easyopenv1.pdb
